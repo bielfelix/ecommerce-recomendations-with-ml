@@ -2,6 +2,11 @@
 
 A web application that displays user profiles and product listings, with the ability to track user purchases for future machine learning recommendations using TensorFlow.js.
 
+## Demo
+
+![Demo](demo.png)
+
+
 ## Project Structure
 
 - `index.html` - Main HTML file for the application
