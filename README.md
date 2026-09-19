@@ -55,3 +55,8 @@ NeuroCart includes the MongoDB-backed API and the TensorFlow.js recommendation f
 ## Status
 
 Historical learning repository. It is useful for showing progression, but it should not be treated as a flagship or as a production recommendation system.
+
+
+## License and distribution
+
+The upstream course repository is published under CC BY-NC-ND 4.0. Its LICENSE.md states that modified or adapted versions may not be distributed under the NoDerivatives condition. This repository is therefore not presented as a permissively licensed open-source derivative. See [NOTICE.md](NOTICE.md) for the provenance and licensing note.
