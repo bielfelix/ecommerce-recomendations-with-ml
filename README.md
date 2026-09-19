@@ -1,44 +1,57 @@
-# E-commerce Recommendation System
+# E-commerce Recommendation Study
 
-A web application that displays user profiles and product listings, with the ability to track user purchases for future machine learning recommendations using TensorFlow.js.
+This repository is an early learning stage of the recommendation-system work that later evolved into [NeuroCart](https://github.com/bielfelix/NeuroCart).
 
-## Demo
+It focuses on the frontend flow, user selection, product listing and purchase tracking before the later MongoDB/API and TensorFlow.js work was consolidated in NeuroCart.
 
-![Demo](demo.png)
+## Attribution
 
+The original exercise comes from the Software Engineering with Applied AI course material published by UNIPDS and Erick Wendel.
 
-## Project Structure
+Upstream material:
+https://github.com/unipds-engenharia-de-ia-aplicada/engenharia-de-software-com-ia-aplicada
 
-- `index.html` - Main HTML file for the application
-- `index.js` - Entry point for the application
-- `view/` - Contains classes for managing the DOM and templates
-- `controller/` - Contains controllers to connect views and services
-- `service/` - Contains business logic for data handling
-- `data/` - Contains JSON files with user and product data
+The attribution is preserved intentionally. I do not present the base exercise as fully original work.
 
-## Setup and Run
+## What this stage demonstrates
 
-1. Install dependencies:
+- Browser-based user profile selection
+- Product listing
+- Purchase-history display
+- Purchase tracking with sessionStorage
+- Separation between views, controllers and services
+- Local development with BrowserSync
+
+## Run
+
+Install dependencies:
+
+```bash
+npm ci
 ```
-npm install
-```
 
-2. Start the application:
-```
+Start the local server:
+
+```bash
 npm start
 ```
 
-3. Open your browser and navigate to `http://localhost:8080`
+The application is served locally by BrowserSync.
 
-## Features
+## Project evolution
 
-- User profile selection with details display
-- Past purchase history display
-- Product listing with "Buy Now" functionality
-- Purchase tracking using sessionStorage
+This repository represents the earlier frontend-oriented stage.
 
-## Future Enhancements
+The next architectural stage moved the data layer to a Node.js API and MongoDB:
 
-- TensorFlow.js-based recommendation engine
-- User similarity analysis
-- Product recommendation based on purchase history
+https://github.com/bielfelix/E-commerce-Recommendation-System-MongoDB-API-Architecture
+
+The more complete current study version is:
+
+https://github.com/bielfelix/NeuroCart
+
+NeuroCart includes the MongoDB-backed API and the TensorFlow.js recommendation flow.
+
+## Status
+
+Historical learning repository. It is useful for showing progression, but it should not be treated as a flagship or as a production recommendation system.
