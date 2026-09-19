@@ -14,9 +14,10 @@
     "recommendation",
     "javascript"
   ],
-  "author": "Erick Wendel / UNIPDS course base; study repository maintained by Gabriel Felix",
-  "license": "ISC",
+  "author": "UNIPDS / Erick Wendel course base; study repository maintained by Gabriel Felix",
+  "license": "UNLICENSED",
   "devDependencies": {
     "browser-sync": "^3.0.4"
-  }
+  },
+  "private": true
 }
