@@ -1,6 +1,6 @@
-# E-commerce Recommendation Study
+# E-commerce Recommendation Prototype
 
-This repository is an early technical work stage of the recommendation-system work that later evolved into [NeuroCart](https://github.com/bielfelix/NeuroCart).
+This repository captures an early technical stage of the recommendation-system work that later evolved into [NeuroCart](https://github.com/bielfelix/NeuroCart).
 
 It focuses on the frontend flow, user selection, product listing and purchase tracking before the later MongoDB/API and TensorFlow.js work was consolidated in NeuroCart.
 
@@ -54,7 +54,7 @@ NeuroCart includes the MongoDB-backed API and the TensorFlow.js recommendation f
 
 ## Status
 
-Historical technical work repository. It is useful for showing progression, but it should not be treated as a flagship or as a production recommendation system.
+Historical technical implementation retained to show architectural progression. It is not presented as a flagship or production recommendation system.
 
 
 ## License and distribution
